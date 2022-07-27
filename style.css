@@ -1,0 +1,243 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+.navbar-brand,
+.navbar-nav li a {
+    height: 35px;
+    padding: 6px 0;
+    font-size: 16px;
+    color: rgb(231, 228, 228);
+    
+}
+
+.navbar{
+    background-color: #5E58C6;
+    
+}
+
+.navbar-nav li a:hover{
+    color: #fff;
+    transition: color .2s;
+}
+
+
+
+
+
+
+.dropdown-menu{
+    background-color: white;
+    font-size: 16px;
+    min-width: 20px;
+    width: auto;
+    height: auto;
+    padding: 0 1rem;
+   
+    
+   
+}
+.dropdown-menu:hover {
+    background-color: #fff;
+    
+
+}
+
+
+
+.dropdown-menu li a{
+    color: black;
+    border-bottom: thin solid rgb(230, 230, 230);
+    
+}
+
+
+.dropdown-menu li a:hover{
+    color: rgb(1, 1, 121);
+
+}
+
+/* #region  */
+.bgtransparente{
+    background-color: transparent;
+
+}
+
+/* #endregion */
+
+.container-f1{
+    margin-top: 100px;
+    color: #5E58C6;
+    font-size: 45px;
+}
+ .container input{
+    border: 1px solid #dadada;
+    color:#333;
+    background-color: #f6f6f6;
+    height: 40px;
+
+    box-shadow: inset 0px 0px 5px rgb(0 0 0 / 10%),
+        inset 0px 0px 1px rgb(0 0 0 / 20%);
+    
+}
+.container-f1 span:nth-child(2){
+    opacity: .5;
+}
+
+
+
+
+.container input:focus{
+    box-shadow: none;
+}
+
+
+.border{
+    border: 2px solid black !important;
+    background-color: white !important;
+    
+}
+
+.box-icon{
+    margin-left: 0.75px !important;
+    border-radius: 0px 4px 4px 0px;
+    background-color: #5E58C6;
+    cursor: pointer;
+    height: 40px;
+}
+.divarrow{
+    margin-left: -18px;
+}
+div .spanarrow{
+    font-weight: lighter;
+    cursor: pointer;
+    font-size: 16px; 
+}
+
+.change{
+    margin: 20px 0;
+    font-size: 12pt;
+    width: 220px;
+    height: 38px;
+    border: 1px solid black;
+
+}
+
+.change:focus{
+    box-shadow: none;
+    border: 1px solid black;
+}
+.mav{
+    font-weight: bolder;
+    color: black;
+
+}
+
+
+option[value]{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    font-weight: normal;
+    white-space: nowrap;
+    line-height: 2px;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    
+}
+
+
+.links{
+    display: flex;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.lang a{
+    list-style: none;
+    text-decoration: none;
+    font-family: arial,verdana;
+    color: #a0a0a0;
+    margin: 15px;
+    line-height: 32px;
+}
+
+.lang a:hover{
+    color: black;
+}
+
+
+.card{
+    border: 1px solid #ccc;
+    text-align: justify;
+    background-color: #f6f6f8;
+   
+}
+
+.card-header{
+    background-color: #ebebf2;
+    color: #124b94;
+}
+
+h5{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 0!important;
+}
+
+.card-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9d9d9d;
+    line-height: 27px;
+    font-size: 15px;
+    
+}
+.card-text a{
+    color: black;
+}
+
+footer ul li{
+    margin: 0 4px;
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li a{
+   text-decoration: none;
+   color: #888;
+   font-size: 13px;
+
+   padding-right: 5px;
+   border-right: 2px solid #888;
+   
+}
+.last{
+    border: none;
+}
+
+footer ul li a:hover{
+    color: #888;
+}
+
+
+
+
+/* #Hover */
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
